@@ -1,0 +1,39 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: cards
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: acc
+    password:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+
+  config:
+    import:
+      - "cards-prod.yml"
+      - "cards-qa.yml"
+
+  profiles:
+    active:
+      - "prod"
+
+build:
+  version: "1.0.1"
+
+cards:
+  message: "Cards service local API"
+  contactDetails:
+    name: "Ajay Malah"
+    email: "arryroy1101@gmail.com"
+  onCallSupport:
+    - (789) 463-450
+    - (789) 463-451

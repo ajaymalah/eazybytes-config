@@ -1,0 +1,40 @@
+
+server:
+  port: 8090
+spring:
+  application:
+    name: cards
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: acc
+    password:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+
+  config:
+    import:
+      - "loans-qa.yml"
+      - "loans-prod.yml"
+
+  profiles:
+    active:
+      - "qa"
+
+build:
+  version: "1.0.1-local"
+
+
+loans:
+  message: "Get loans Contact details Locals"
+  contactDetails:
+    name: "Ajay malah"
+    email: "arryroy1101@gmail.com"
+  onCallSupport:
+    - (748) 946-3450
+    - (789) 946-3451

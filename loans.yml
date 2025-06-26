@@ -1,0 +1,11 @@
+build:
+  version: "1.0.1-local"
+
+loans:
+  message: "Get loans Contact details Locals"
+  contactDetails:
+    name: "Ajay malah"
+    email: "arryroy1101@gmail.com"
+  onCallSupport:
+    - (748) 946-3450
+    - (789) 946-3451

@@ -1,0 +1,11 @@
+build:
+  version: "1.0.1"
+
+accounts:
+  message: "Welcome to Ezybank accounts related local APIs"
+  contactDetails:
+    name: "ajay malah"
+    email: "arryroy101@gmail.com"
+  onCallSupport:
+    - 7893474837
+    - 7489463457

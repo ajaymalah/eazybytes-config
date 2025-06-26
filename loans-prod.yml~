@@ -1,0 +1,18 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+
+build:
+  version: "1.0.1-prod"
+
+
+loans:
+  message: "Get loans Contact details Production"
+  contactDetails:
+    name: "Ajay malah"
+    email: "arryroy1101@gmail.com"
+  onCallSupport:
+    - (748) 946-3450
+    - (789) 946-3451

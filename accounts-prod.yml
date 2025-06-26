@@ -1,0 +1,13 @@
+
+build:
+  version: "1.0.1-prod"
+
+
+accounts:
+  message: "Get accounts Contact details Production"
+  contactDetails:
+    name: "Ajay malah"
+    email: "arryroy1101@gmail.com"
+  onCallSupport:
+    - (748) 946-3450
+    - (789) 946-3451

@@ -1,0 +1,11 @@
+build:
+  version: "1.0.1"
+
+cards:
+  message: "Cards service local API"
+  contactDetails:
+    name: "Ajay Malah"
+    email: "arryroy1101@gmail.com"
+  onCallSupport:
+    - (789) 463-450
+    - (789) 463-451
