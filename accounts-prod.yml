@@ -4,7 +4,7 @@ build:
 
 
 accounts:
-  message: "Get accounts Contact details pord demo"
+  message: "Get accounts Contact details prod demo"
   contactDetails:
     name: "Ajay malah"
     email: "{cipher}defa36d063576b8eecfa5cc2ad5c70b3ae70cc301d17715762f27f955fecf3ae3217aae777c004d3c8a73d78bf9065be"
