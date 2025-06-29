@@ -3,7 +3,7 @@ build:
 
 
 cards:
-  message: "Get cards Contact details Production"
+  message: "Get cards Contact details prod"
   contactDetails:
     name: "Ajay malah"
     email: "arryroy1101@gmail.com"
