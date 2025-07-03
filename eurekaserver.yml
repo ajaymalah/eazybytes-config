@@ -6,6 +6,6 @@ eureka:
     hostname: loclahost
   client:
     fetchRegistry: false
-    regisertWithEureka: false
+    registertWithEureka: false
     servicerUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
